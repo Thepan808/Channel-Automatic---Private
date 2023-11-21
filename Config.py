@@ -20,12 +20,12 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = ... # api id here
-    OWNER_ID = ...
-    API_HASH = "Hash Here"
-    BOT_TOKEN = "TOKEN here"
-    DATABASE_URL = "Url here"
+    API_ID = 4954361 # api id here
+    OWNER_ID = 737737727
+    API_HASH = "43a786a8548a30f9d6887e36d53c0e64"
+    BOT_TOKEN = "5111552136:AAH-1j9xSn6XvxzPm7DHM1_6nchfXW9r7tE"
+    DATABASE_URL = "postgres://sjbigejk:5DexFs6Is0tRBMApihfGUfrrTQdSLraE@motty.db.elephantsql.com/sjbigejk"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "OldLostFriends" # must join channel link here
+    MUST_JOIN = "zzvvbr" # must join channel link here
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
