@@ -4,13 +4,13 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hey, hello {}
 
 Welcome to {}
 
 You can use me to manage channels with tons of features. Use below buttons to learn more !
 
-By @StarkBots
+By @The_Panda_Official
     """
 
     # Home Button
@@ -20,13 +20,13 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ My Bot In Portuguese ✨", url="https://t.me/Demonick_xyz_robot")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("🛸 About 🛸", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("🎭 Developer 🎭", url="https://t.me/The_Panda_Official")],
+        [InlineKeyboardButton("🎨 Channel 🎨", url="https://t.me/botssaved")],
     ]
 
     # Help Message
@@ -34,7 +34,7 @@ By @StarkBots
 Everything is self explanatory after you add a channel.
 To add a channel use keyboard button 'Add Channels' or alternatively for ease, use `/add` command
 
-✨ **Available Commands** ✨
+🛸 **Available Commands** 🛸
 
 /about - About The Bot
 /help - This Message
@@ -50,13 +50,13 @@ Alternative Commands
     ABOUT = """
 **About This Bot** 
 
-A telegram channel automation bot by @StarkBots
+A telegram channel automation bot by @botssaved
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ChannelBot)
+Channel : [Click Here](https://t.me/botssaved)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkAgent
+Developer : @The_Panda_Official
     """
